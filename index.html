@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>MyPaint</title>
+  <script src="./script.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <header>
+        <div class="tools">
+          <img src="./Icons/circle.png" alt="tool" class="shape" id="circle">
+          <img src="./Icons/Line.png" alt="tool"class="shape" id="Hline">
+          <img src="./Icons/square.png" alt="tool"class="shape" id="square">
+          <img src="./Icons/trianlge.png" alt="tool"class="shape" id="triangle">
+          <img src="./Icons/VLine.png" alt="tool"class="shape" id="Vline">
+          <img src="./Icons/paintbrush.png" alt="tool"class="shape" id="brush">
+
+          
+        </div>
+        <div class="colors">
+          <input type="color" id="black" value="#000000" class="color">
+          <input type="color" id="red" value="#FF0000" class="color">
+          <input type="color" id="green" value="#008000" class="color">
+          <input type="color" id="purple" value="#800080" class="color">
+          <input type="color" id="pink" value="#FFC0CB" class="color">
+          <input type="color" id="yellow" value="#FFFF00" class="color">
+          <input type="color" id="orange" value="#FFA500" class="color">
+          <input type="color" id="brown" value="#A52A2A" class="color">
+        </div>
+        <div class="clearBtn">
+          <button>Clear</button>
+        </div>
+    </header>
+    <main>
+        <canvas></canvas>
+    </main>
+  </div>
+</body>
+</html>
